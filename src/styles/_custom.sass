@@ -17,19 +17,61 @@
 
 .bg-color
   &-1
-    background-color: #EAF8FD
+    background-color: #E9E0CC
   &-2
-    background-color: #FFFBE8
+    background-color: #56678D
   &-3
-    background-color: #F0E9F6
+    background-color: #EFEADD
   &-4
-    background-color: #EAF8FD
+    background-color: #9EC6E0
+  &-5
+    background-color: #BA9C5A !important
+  &-6
+    background-color: #DCE0E7
+  &-7
+    background-color: #CEE2EF
+  &-8
+    background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(158, 198, 224, 1) 37%, rgba(158, 198, 224, 1) 64%, rgba(255, 255, 255, 1) 100%)
+  &-9
+    background-color: #FBF3C6
+  &-10
+    background-color: #2F384D
+  &-11
+    background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(220, 224, 231, 1) 38%, rgba(220, 224, 231, 1) 64%, rgba(255, 255, 255, 1) 100%)
+  &-12
+    background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(206, 226, 239, 1) 38%, rgba(206, 226, 239, 1) 64%, rgba(255, 255, 255, 1) 100%)
+  &-13
+    background-color: #EDEEF2
+  &-14
+    background-color: #CBD0DC
+  &-15
+    background-color: #FDFAEB
   &-info
     background-color: #E8EEFD
   &-sintesis
     background-color: #F9F9F9
   &-white
     background-color: #fff
+////////////////FONDO COMPLETO CON POSICION/////////////////
+.bg-h85
+  position: relative
+  &::after
+    content: ''
+    position: absolute
+    bottom: 0
+    left: 0
+    width: 100%
+    height: 83%
+    transform: translateY(-0%)
+    background-color: #56678D
+    z-index: 0
+  .col-lg-12
+    z-index: 1
+  @media screen and (max-width: $bp-max-md)
+    padding: 1rem
+    &::after
+      height: 100%
+      bottom: 0
 
 .border-top
   &.color-primario
@@ -38,6 +80,9 @@
     border-top: 5px solid $color-secundario !important
   &.color-terciario
     border-top: 5px solid $color-terciario !important
+
+.border-bottom
+  border-bottom: 1px solid #707070 !important
 
 // Full Width Background
 .bg-full-width
@@ -48,16 +93,24 @@
   @media screen and (max-width: $bp-max-sm)
     padding-left: 1.5rem
     padding-right: 1.5rem
+.bg-full-width-2
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
 
 .bg-fondo
   &-1
-    background-image: url("../assets/bg/bg1.png") !important
-    background-position: top
+    background-image: url("../assets/bg/bg1.svg") !important
+    background-position: bottom
   &-2
-    // background-image: url("../assets/bg/bg2.png") !important
+    background-image: url("../assets/bg/bg2.svg") !important
     background-position: bottom
   &-slider
-    background-image: url("../assets/bg/bg-slider.png") !important
+    background-image: url("../assets/bg/bg-slider.svg") !important
     background-position: bottom
 
 // Variables
@@ -97,15 +150,15 @@ $custom-card-img-height: 322px
 
 
 .acordion__header
-  background-color: lighten($color-acento-contenido, 25%) !important
+  background-color: lighten($color-secundario, 35%) !important
 
 .acordion__header--active
-  background-color: $color-acento-contenido !important
+  background-color: $color-secundario !important
   h4, i
     color: #000 !important
 
 .acordion__contenido
-  background-color: lighten($color-acento-contenido, 27%) !important
+  background-color: lighten($color-secundario, 37%) !important
 
 
 .anexo__texto
@@ -227,3 +280,4 @@ th.bg-color-tabla
 
 .bordes
   border: 1px solid lightgray !important
+
