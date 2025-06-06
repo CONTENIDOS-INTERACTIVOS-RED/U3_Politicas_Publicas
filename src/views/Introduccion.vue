@@ -4,10 +4,10 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
 
     .row.mb-5
-      .col-lg-4.order-2
+      .col-lg-4.order-lg-2.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/intro/1.png", data-aos="zoom-in")
-      .col-lg-8.order-1.mb-3.mb-lg-0
+      .col-lg-8.order-lg-1
         .bg-color-9.p-4.mb-3(data-aos="fade-left")
           .row.align-items-start
             .col-lg-auto
@@ -22,7 +22,7 @@
           .col-lg-12
             .row.justify-content-center.align-items-center
               .col-lg-10(data-aos="fade-left").order-2
-                p.mb-0.text-white.mt-4 La unidad está organizada en tres grandes temas: primero, se abordarán las fases iniciales (diagnóstico, diseño y planificación); luego, la formulación e implementación de las políticas y, finalmente, se desarrollarán los procesos de evaluación y retroalimentación. Cada tema incluye lecturas, ejercicios prácticos, discusiones guiadas y reflexiones aplicadas.
+                p.mb-0.text-white.mt-lg-4 La unidad está organizada en tres grandes temas: primero, se abordarán las fases iniciales (diagnóstico, diseño y planificación); luego, la formulación e implementación de las políticas y, finalmente, se desarrollarán los procesos de evaluación y retroalimentación. Cada tema incluye lecturas, ejercicios prácticos, discusiones guiadas y reflexiones aplicadas.
               .col-lg-2(data-aos="zoom-in").order-1.mb-3.mb-lg-0
                 img.img-fluid(src='@/assets/curso/intro/3.svg', style="max-width:486px", alt="" ).mx-auto.mx-lg-0.ms-lg-auto.mb-4.mb-lg-0
     

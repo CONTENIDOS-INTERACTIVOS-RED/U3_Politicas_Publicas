@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'1. Título tema'")
+  BannerInterno(:subTitulo="'1. Fases iniciales del ciclo de las políticas públicas'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
     .row.mb-5
@@ -310,7 +310,7 @@
 
     .bg-full-width.bg-color-4.mb-5
       .px-4.px-md-5.py-4
-        p.mb-0Este Estos no son lineamientos rígidos, sino orientaciones flexibles que ayudan a mejorar la calidad del diseño. Se destaca especialmente la participación ciudadana desde las primeras fases, elemento clave para reforzar la legitimidad y la corresponsabilidad social.
+        p.mb-0 Estos no son lineamientos rígidos, sino orientaciones flexibles que ayudan a mejorar la calidad del diseño. Se destaca especialmente la participación ciudadana desde las primeras fases, elemento clave para reforzar la legitimidad y la corresponsabilidad social.
     
     h2(data-aos="fade-left") Riesgos y debilidades en el diseño
     p.mb-5 El diseño no está exento de errores o limitaciones. Entre los riesgos más frecuentes se encuentran:
@@ -414,9 +414,9 @@
     .bg-full-width.bg-color-2.mb-5
       .px-4.px-md-5
         .row.align-items-center
-          .col-lg-6.order-2
+          .col-lg-6.order-lg-2.mb-3.mb-lg-0
             img(src="@/assets/curso/tema1/37.svg").mx-auto
-          .col-lg-6.order-1.mb-3.mb-lg-0
+          .col-lg-6.order-lg-1
             .p-4.p-md-5
               p(data-aos="fade-left").mb-4.text-white Para estudiar esta temática, lo invitamos a escuchar el siguiente <em>podcast</em>.
       
