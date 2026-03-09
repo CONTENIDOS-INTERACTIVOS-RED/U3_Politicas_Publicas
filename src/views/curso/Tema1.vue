@@ -421,7 +421,7 @@
               p(data-aos="fade-left").mb-4.text-white Para estudiar esta temática, lo invitamos a escuchar el siguiente <em>podcast</em>.
       
               TarjetaAudio.color-acento-botones.bg-color-white.mb-3(
-                texto="Fundamentos de la innovación estratégica"
+                texto="La planificación estratégica en políticas públicas"
                 tiempo
                 :audio="require('../../assets/curso/podcast/podcast1.mp3')"
               )
@@ -476,7 +476,7 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.casanare.gov.co/Dependencias/Gobierno/Paginas/Componentes-de-la-Estructura-de-la-Politica-Publica.aspx" target="_blank" rel="noopener noreferrer") Secretaría de Gobierno. (2019). Componentes de la Estructura de la Política Pública. Gobernación de Casanare. 
+              a(href="https://rap-pacifico.gov.co/wp-content/uploads/2022/02/PRO-PE-02-Procedimiento-para-la-elaboracion-de-Politicas-Publicas.pdf" target="_blank" rel="noopener noreferrer") Región Administrativa y de Planificación del Pacífico (RAP Pacífico). (2022). Procedimiento para la elaboración de políticas públicas. 
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
